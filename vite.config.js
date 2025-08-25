@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'   // if you're using React
+import react from '@vitejs/plugin-react-swc'
 
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/p007/',   // 👈 your repo name
+  base: '/p007/'
 })
